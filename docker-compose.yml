@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  dev-db:
+    container_name: dev-db
+    image: postgres
+    ports:
+      - 5434:5432
+    environment:
+      POSTGRES_USER: clem
+      POSTGRES_PASSWORD: pass123
+      POSTGRES_DB: bookmark
+    volumes:
+      - bookmark-db:/var/lib/postgresql/data
+    restart: always
+    networks:
+      - bookmarknetwork
+  test-db:
+    container_name: test-db
+    image: postgres
+    ports:
+      - 5435:5432
+    environment:
+      POSTGRES_USER: clem
+      POSTGRES_PASSWORD: pass123
+      POSTGRES_DB: bookmark
+    restart: always
+    networks:
+      - bookmarknetwork
+volumes:
+  bookmark-db:
+networks:
+  bookmarknetwork:
