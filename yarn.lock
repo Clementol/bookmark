@@ -776,10 +776,10 @@
   resolved "https://registry.npmjs.org/@prisma/engines-version/-/engines-version-3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9.tgz"
   integrity sha512-HkcsDniA4iNb/gi0iuyOJNAM7nD/LwQ0uJm15v360O5dee3TM4lWdSQiTYBMK6FF68ACUItmzSur7oYuUZ2zkQ==
 
-"@prisma/engines@3.12.0-37.22b822189f46ef0dc5c5b503368d1bee01213980":
-  version "3.12.0-37.22b822189f46ef0dc5c5b503368d1bee01213980"
-  resolved "https://registry.npmjs.org/@prisma/engines/-/engines-3.12.0-37.22b822189f46ef0dc5c5b503368d1bee01213980.tgz"
-  integrity sha512-zULjkN8yhzS7B3yeEz4aIym4E2w1ChrV12i14pht3ePFufvsAvBSoZ+tuXMvfSoNTgBS5E4bolRzLbMmbwkkMQ==
+"@prisma/engines@4.8.0-dev.20":
+  version "4.8.0-dev.20"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-4.8.0-dev.20.tgz#fe37403175822939283e338f0ec2c710a7843bec"
+  integrity sha512-g6/gsrOq/emO+W+jrfqCoYycanVgto6TdkLBUhUOZ5vrC+E5YRkUCinLoCDzHF/KN6lqT/bKIp5OrLYgNf+nWQ==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
@@ -4394,12 +4394,12 @@ pretty-format@^27.0.0, pretty-format@^27.5.1:
     ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
-prisma@^3.12.0:
-  version "3.12.0"
-  resolved "https://registry.npmjs.org/prisma/-/prisma-3.12.0.tgz"
-  integrity sha512-ltCMZAx1i0i9xuPM692Srj8McC665h6E5RqJom999sjtVSccHSD8Z+HSdBN2183h9PJKvC5dapkn78dd0NWMBg==
+prisma@^4.8.0-dev.20:
+  version "4.8.0-dev.20"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-4.8.0-dev.20.tgz#72d9d653c5d66a5d11f4a0e6c513fd0b68c278dd"
+  integrity sha512-K2uW8qRqhScVQiO/2cUvs0rTT9ygrPxepVQhmapACvkyDJWQSv/GY38AjQfGsUbD5lmlarVphRxi/HhbGCOVjw==
   dependencies:
-    "@prisma/engines" "3.12.0-37.22b822189f46ef0dc5c5b503368d1bee01213980"
+    "@prisma/engines" "4.8.0-dev.20"
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
